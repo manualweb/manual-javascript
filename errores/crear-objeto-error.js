@@ -1,11 +1,8 @@
 
-function FunctionalException(message) {
-  this.message = message;
-  this.name = 'FunctionalException';
-  this.toString = function() {
-    return this.name + ': "' + this.message + '"';
-  }
-}
+// Crear objeto Error
 
-let fe1 = new FunctionalException('Saldo Negativo');
-console.log(fe1.toStrig());
+try {
+  throw new Error("Esto es un nuevo error");
+} catch (e) {
+  console.log(e.name + ':' + e.message)
+}
