@@ -1,5 +1,5 @@
 
-// Imprimir solo números primos mediante un continue
+// Imprimir solo números impares mediante un continue
 
 console.log('Inicio del Programa');
 let x = 0;
