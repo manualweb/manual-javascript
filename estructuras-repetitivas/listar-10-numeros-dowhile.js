@@ -1,8 +1,8 @@
 
 // Listar 10 números do-while
 
-x = 0;
+let x = 1;
 do {
-  // Bloque de sentencias
+  console.log(x);
   x++;
-} while (x<=10)
+} while (x<=10);
