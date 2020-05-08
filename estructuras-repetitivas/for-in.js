@@ -1,8 +1,10 @@
 console.log('Inicio del Programa');
 
-let elementos = new Array(1,2,3,4,5,6);
+let elementos = new Array('A','B','C','D','E','F');
 
-for (e in elementos)
-  console.log(e);
+for (e in elementos) {
+  console.log("Propiedad: " + e);
+  console.log("Valor:" + elementos[e]);
+}
 
 console.log('Fin del Programa');
