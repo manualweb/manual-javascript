@@ -1,13 +1,8 @@
 console.log('Inicio del Programa');
 
-function persona(nombre,edad) {
-  this.nombre = nombre;
-  this.edad = edad;
-}
+let elementos = new Array(1,2,3,4,5,6);
 
-let p = new persona('victor',42);
-
-for (x in p)
-  console.log(p[x]);
+for (e in elementos)
+  console.log(e);
 
 console.log('Fin del Programa');
